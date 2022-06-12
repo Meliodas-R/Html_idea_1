@@ -24,12 +24,6 @@ label {
     transition: all .1s ease-in-out; /* Velocidad */
 }
 
-/** active label */
-label:active {
-    /* Mueve la coordenada x y reduce el tamaño. */
-    transform: translate(0, 4px) scale(.75);
-}
-
 .active{
     /* Mueve la coordenada x y reduce el tamaño. */
     transform: translate(0, 4px) scale(.75);
